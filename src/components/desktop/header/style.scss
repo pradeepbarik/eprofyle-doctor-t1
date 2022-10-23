@@ -1,0 +1,29 @@
+@use '../../../varibales.scss' as variable;
+#fixed_header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: white;
+    z-index: 9;
+}
+.nav {
+    gap: 1.5rem;
+    li {
+        font-weight: 700;
+        color: #4e4949;
+        font-size: 1.2rem;
+        cursor: pointer;
+        &:hover{
+            color: variable.$secondaryColor;
+        }
+        &.active{
+            color: variable.$secondaryColor;
+        }
+    }
+}
+.call_btn{
+    border-color: variable.$primaryColor;
+    border-radius: 0.5rem;
+    font-weight: 700;
+}
