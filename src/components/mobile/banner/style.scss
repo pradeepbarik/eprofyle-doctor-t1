@@ -1,0 +1,35 @@
+@use '../../../varibales.scss' as variable;
+
+.banner {
+    background-repeat: repeat;
+     -webkit-animation:mymove 15s linear infinite;
+    /* Safari and Chrome */
+    animation:mymove 15s linear infinite;
+    background-size: cover;
+}
+@keyframes mymove {
+    from {
+        background-position: 0% 0px;
+    }
+    to {
+        background-position: 0% -520px;
+    }
+}
+.banner .opacity-reducer{
+    height: 101px;
+    background: linear-gradient(180deg, #050b32, #7e737300);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+}
+.banner .doctor-name{
+    background: #5042CF;
+background: -webkit-linear-gradient(to right, #ffffff 0%, #f5c4e6 50%, #0dcbff 100%);
+background: -moz-linear-gradient(to right, #ffffff 0%, #f5c4e6 50%, #0dcbff 100%);
+background: linear-gradient(to right, #ffffff 0%, #f5c4e6 50%, #0dcbff 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+white-space: nowrap;
+}

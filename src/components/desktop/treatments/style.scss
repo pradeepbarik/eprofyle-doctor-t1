@@ -56,14 +56,55 @@
                 color: #545768;
                 font-size: 1rem;
             }
-            .action-bar{
+
+            .action-bar {
                 margin-top: auto;
                 text-align: center;
                 padding: 0px 0px 20px 0px;
             }
         }
     }
-    button{
+
+    button {
         background: linear-gradient(45deg, variable.$primaryColor, #00b773);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #treatment_list {
+        margin-top: 1rem;
+    }
+
+    .treatment-heading {
+        font-size: 20px;
+    }
+
+    .treatment-list {
+        flex-wrap: wrap;
+        gap: 4px;
+
+        >div {
+            flex: 0 0 48%;
+            padding: 0rem 0.3rem;
+
+            .item {
+                .name {
+                    font-size: 1rem;
+                }
+
+                .action-bar {
+                    button{
+                        padding: 5px 10px;
+                        font-size: .9rem;
+                    }
+                }
+                img {
+                    height: 7rem;
+                    width: 7rem;
+                }
+            }
+
+        }
+
     }
 }

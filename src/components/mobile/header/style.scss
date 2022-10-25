@@ -1,0 +1,9 @@
+@use '../../../varibales.scss' as variable;
+#fixed_header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: white;
+    z-index: 9;
+}

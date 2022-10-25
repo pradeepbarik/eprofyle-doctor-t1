@@ -1,20 +1,20 @@
-import Header from './components/desktop/header';
-import Main from './components/desktop/main';
-import Banner from './components/desktop/banner';
-import Treatments from './components/desktop/treatments';
-import ConsultingTiming from './components/desktop/consulting-timing';
-import Footer from './components/desktop/footer';
+import { BrowserView, MobileView, isMobile } from 'react-device-detect';
+import DesktopView from "./components/desktop";
+import Mobileview from './components/mobile';
 function App() {
+  if (isMobile) {
+    return (
+        <MobileView>
+          <div>
+            <Mobileview />
+          </div>
+        </MobileView>
+    )
+  }
   return (
-    <>
-      <Header />
-      <Main>
-        <Banner />
-        <Treatments />
-        <ConsultingTiming />
-      </Main>
-      <Footer />
-    </>
+      <BrowserView>
+        <DesktopView />
+      </BrowserView>
   );
 }
 

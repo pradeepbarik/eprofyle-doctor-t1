@@ -13,7 +13,7 @@ const Treatment = ({ data }) => {
                     {data.description}
                 </div>
                 <div className='action-bar'>
-                    <button className='rounded-full text-white text-base px-4 py-2 font-bold font-bold bg-sky-500'>Message To Doctor</button>
+                    <button className='rounded-full text-white text-base md:px-4 md:py-2 font-bold font-bold bg-sky-500'>Message To Doctor</button>
                 </div>
             </div>
         </div>
@@ -22,12 +22,12 @@ const Treatment = ({ data }) => {
 const Treatments = () => {
     return (
         <>
-            <div id="treatment_list" className='text-center mt-20'>
+            <div id="treatment_list" className='text-center md:mt-20 sm:mt-10'>
                 <span className='text-4xl font-bold text-indigo-900 treatment-heading'>Mostly Patients are visited For</span><br />
                 <span></span>
             </div>
-            <div className='px-40 mb-20'>
-                <div className='mt-10 treatment-list'>
+            <div className='md:px-40 md:mb-20'>
+                <div className='md:mt-10 treatment-list'>
                     {TREATMENTS.map((treatment, index) =>
                         <Treatment key={`treatment-${index}`} data={treatment} />
                     )}
