@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/eprofyle-doctor-t1/static/css/main.df439afc.css",
-    "main.js": "/eprofyle-doctor-t1/static/js/main.7a21b42d.js",
+    "main.css": "/eprofyle-doctor-t1/static/css/main.8bf826ac.css",
+    "main.js": "/eprofyle-doctor-t1/static/js/main.3d5cba5d.js",
     "static/js/787.9a3a2115.chunk.js": "/eprofyle-doctor-t1/static/js/787.9a3a2115.chunk.js",
     "index.html": "/eprofyle-doctor-t1/index.html",
-    "main.df439afc.css.map": "/eprofyle-doctor-t1/static/css/main.df439afc.css.map",
-    "main.7a21b42d.js.map": "/eprofyle-doctor-t1/static/js/main.7a21b42d.js.map",
+    "main.8bf826ac.css.map": "/eprofyle-doctor-t1/static/css/main.8bf826ac.css.map",
+    "main.3d5cba5d.js.map": "/eprofyle-doctor-t1/static/js/main.3d5cba5d.js.map",
     "787.9a3a2115.chunk.js.map": "/eprofyle-doctor-t1/static/js/787.9a3a2115.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.df439afc.css",
-    "static/js/main.7a21b42d.js"
+    "static/css/main.8bf826ac.css",
+    "static/js/main.3d5cba5d.js"
   ]
 }
