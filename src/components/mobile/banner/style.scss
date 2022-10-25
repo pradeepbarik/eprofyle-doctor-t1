@@ -6,6 +6,9 @@
     /* Safari and Chrome */
     animation:mymove 15s linear infinite;
     background-size: cover;
+    button{
+        font-size: 0.8rem;
+    }
 }
 @keyframes mymove {
     from {

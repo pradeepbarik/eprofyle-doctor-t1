@@ -9,7 +9,7 @@ const ConsultingTiming = () => {
     return (
         <div ref={ref} id="consulting_time" style={{ backgroundImage: "linear-gradient(45deg, rgb(150 161 165), transparent)" }}>
             <div className='py-12 px-2' style={{ backgroundImage: "url('images/pattern3.png')", backgroundRepeat: 'no-repeat', position: 'relative' }}>
-                <div className='text-center text-2xl font-bold mb-6'>Consulting Time</div>
+                <div className='text-center text-xl font-bold mb-2'>Consulting Time</div>
                 <div className={`consulting_time animate__animated ${inView ? ' animate__flipInX' : ''}`}>
                     {new Array(7).fill('').map((el, i) =>
                         <div>

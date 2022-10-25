@@ -18,8 +18,8 @@ const Banner = () => {
                 <div className='text-lg font-bold mt-3 text-slate-200 text-center'>
                   Taking care of your skin also helps prevent skin problems.
                 </div>
-                <div className='text-white'>
-                    <button className='rounded-full text-base px-2 py-2 font-bold mt-4 ml-5 font-bold bg-pink-500'>Book appointment</button>
+                <div className='text-white text-center'>
+                    <button className='rounded-full text-base px-2 py-2 font-bold mt-4 font-bold bg-pink-500'>Book appointment</button>
                     <button className='rounded-full text-base px-2 py-2 font-bold mt-4 ml-5 font-bold bg-sky-400'>Know more details</button>
                 </div>
             </div>
